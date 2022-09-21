@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from '../AppStyles.module.css';
-import MobileNavigation from './MobileNavigation';
+import MobileNavigation from './Arrange';
 
 const Header = () => {
   return (
@@ -11,14 +11,14 @@ const Header = () => {
           <div>
             <NavLink to='/home' className={styles.main_Header_Logo}>
               <div className={styles.main_Header_Logo_Top}>The</div>
-              <div className={styles.main_Header_Logo_Bottom}>Blog-o-pedia</div>
+              <div className={styles.main_Header_Logo_Bottom}>Siren</div>
             </NavLink>
           </div>
           <div>
             <MobileNavigation />
           </div>
         </div>
-        <div className={styles.main_Header_Bottom}>
+        <div className={styles.main_Header_Bottom}>-
           <div>
             <NavLink
               to='/home'

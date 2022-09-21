@@ -5,9 +5,9 @@ import {
   Route,
   Navigate,
 } from 'react-router-dom';
-import Article from './Components/Article';
+import Article from './Components/Cards';
 import { BlogProvider } from './Components/BlogContext';
-import CategoryPage from './Components/CategoryPage';
+import CategoryPage from './Components/Category';
 import Header from './Components/Header';
 import Home from './Components/Home';
 

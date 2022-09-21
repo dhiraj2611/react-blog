@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from '../AppStyles.module.css';
 import { BlogContext } from './BlogContext';
-import TopPosts from './TopPosts';
+import TopPosts from './PostsUp';
 
 const LatestArticlesCategory1 = () => {
   const [loadMore] = useState(false);

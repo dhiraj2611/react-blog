@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import { BlogContext } from './BlogContext';
 import styles from '../AppStyles.module.css';
-import TopPosts from './TopPosts';
+import TopPosts from './PostsUp';
 
 const CategoryPage = () => {
   const { categoryName } = useParams();

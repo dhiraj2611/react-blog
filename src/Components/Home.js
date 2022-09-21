@@ -1,15 +1,18 @@
 import React from "react";
 import styles from '../AppStyles.module.css';
-//import FeaturedArticlesComponent from "./FeaturedArticlesComponent";
-//import LatestArticlesAllSections from "./LatestArticlesAllSections";
-//import LatestArticlesCategory1 from "./LatestArticlesCategory1";
-//import LatestStories from "./LatestStories";
-import LatestArticlesAllSections from "./LatestArticle";
+import FeaturedArticlesComponent from "./MainPageComponent";
+import LatestArticlesAllSections from "./LatestArticles";
+import LatestArticlesCategory1 from "./MainPage1";
+import LatestStories from "./LatestStories"
+
 
 const Home = () => {
     return(
         <div className={styles.commonStyle}>
-         < LatestArticlesAllSections/>
+            <FeaturedArticlesComponent/>
+            <LatestArticlesAllSections/>
+            <LatestArticlesCategory1/>
+            <LatestStories/>
         </div>
     )
 }
